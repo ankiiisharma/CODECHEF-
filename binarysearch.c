@@ -37,6 +37,7 @@ int main()
         l=mid+1;
     }
  }
+ 
  printf("Element found at index %d",mid);
  
    return 0;
