@@ -5,17 +5,14 @@ int main(void) {
 	scanf("%d",&t);
 	while(t--)
 	{
-	    int x,y,z,x1,y1,b,a;
-	    scanf("%d%d",&x,&y,&z);
+	    int x,y,z,a,b,c,d;
+	    scanf("%d%d%d",&x,&y,&z);
 	    
-	     x1=5*x;
-	     y1=10*y;
-	     a=x1+y1;
-	    
-	     b = a/z;
-	    
-        
-        printf("%d\n",b);
+	     a=5*x;
+	     b=10*y;
+	     c=a+b;
+	     d=c/z;
+	     printf("%d\n",d);
 	}
 	return 0;
 }
