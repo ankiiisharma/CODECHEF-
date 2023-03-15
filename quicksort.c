@@ -37,8 +37,15 @@ void quicksort(int Arr[], int low, int high)
 
 int main()
 {
-	int size = 5;
-	int array[size] = { 11,9,6,16,7 };
+	int size;
+	scanf("%d",&size);
+
+	int array[100];
+	printf("Enter the Array:\n");
+	for(int i=0;i<size;i++)
+	{
+		scanf("%d",&array[i]);
+	}
 
 	quicksort(array, 0, size - 1);
     
