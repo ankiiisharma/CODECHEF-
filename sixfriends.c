@@ -7,18 +7,19 @@ int main(void) {
 	{
 	    
 	    int X,Y;
+	    scanf("%d%d",&X,&Y);
 	    
 	    int A=3*X;
 	    int B=2*Y;
 	    
 	    
-	    if(A>=B)
+	    if(A>B)
 	    {
-	        printf("%d\n",A);
+	        printf("%d\n",B);
 	    }
 	    else
 	    {
-	        printf("%d\n",B);
+	        printf("%d\n",A);
 	    }
 	}
 	
