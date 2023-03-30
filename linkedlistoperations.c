@@ -1,5 +1,3 @@
-// Linked list operations in C
-
 #include <stdio.h>
 #include <stdlib.h>
 
