@@ -15,7 +15,7 @@ int main(void)
      
      while(y!=0)
      {
-     x=y%10;
+     y=x%10;
      
      if(x==0 || x==6 || x==9)
      {
