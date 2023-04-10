@@ -8,7 +8,7 @@ int main(void) {
 	    int x,y;
 	    scanf("%d%d",&x,&y);
 	    
-	    int z=x*5:
+	    int z=x*5;
 	    
 	    if(z>=y){
 	        printf("YES\n");
