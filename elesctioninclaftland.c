@@ -11,8 +11,6 @@ int main(void)
 	    {
 	        scanf("%d",&a[i]);
 	    }
-	   // for(int i=0;i<4;i++)
-	   // {
 	        if(a[0]>50)
 	        {
 	            printf("A\n");
@@ -29,7 +27,6 @@ int main(void)
 	        {
 	            printf("NOTA\n");
 	        }
-	   // }
 	}
 	return 0;
 }
