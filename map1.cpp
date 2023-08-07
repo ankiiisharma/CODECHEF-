@@ -14,6 +14,6 @@ int main(){
 
    map<char,int>:: iterator i;
    for(i=test.begin();i!=test.end();++i)
-
+    cout<<i->first<<" : "<<i->second<<"\n";
 }
 
