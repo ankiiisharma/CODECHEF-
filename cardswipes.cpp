@@ -32,14 +32,7 @@ int main() {
 				count=count+1;
 			}
 		}
-	    // for(int i=0;i<n;i++)
-	    // {
-	    //     int ans=a[i]%2;
-	    //     if(ans!=0)
-	    //     {
-	    //         count=count+1;
-	    //     }
-	    // }
+
 	    
 	    cout<<count<<endl;
 	}
