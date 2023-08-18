@@ -20,16 +20,16 @@ int main()
     {
         if(a[i]<max)
         {
-            min=a[i];
+            max=a[i];
         }
 
         else if(a[i]>min)
         {
-            max=a[i];
+            min=a[i];
         }
     }
 
-    cout<<"Minimum Element is: "<<min<<endl;
-    cout<<"Maximum element is: "<<max;
+    cout<<"Maximum Element is: "<<min<<endl;
+    cout<<"Mimimum element is: "<<max;
     
 }
