@@ -41,8 +41,8 @@ int main()
         cin>>arr[i]
     }
 
-    Solution ob;
+    Solution object;
 
-    cout<<ob.PalinArray<<endl;
+    cout<<object.PalinArray<<endl;
     return 0;
 }
