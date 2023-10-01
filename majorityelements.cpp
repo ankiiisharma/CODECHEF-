@@ -1,31 +1,19 @@
 #include<iostream>
 using namespace std;
-int main()
-{
-    int n;
-    int flag=0;
 
-    cin>>n;
 
-    int arr[n];
-    for(int i=0;i<n;i++){
-        cin>>arr[i];
-    }
-
-    int ans = INT_MIN;
-    for(int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
-            if(arr[i]==arr[j]){
-                flag=flag+1;
-            }
+class Solution {
+public:
+    int majorityElement(vector<int>& nums) {
+        map<int,int>ans;
+        for(int i=0;i<nums.size();i++){
+          ans[nums[i]]++;
         }
-        if(flag>=ans){
-            ans=arr[i];
-
+        for(auto it: ans){
+          if(it.second>nums.size()/2){
+            return it.first;
+          }
         }
-    }
-
-    cout<<ans<<endl;
-
-    return 0;
-}
+        return 0;
+  }
+};
